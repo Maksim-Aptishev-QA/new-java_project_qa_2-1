@@ -6,9 +6,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.printf("");
 
-        int x = 13676;
-        int y = 20;
-        int miles = x/y;
+        int ticketPrice = 13676;
+        int quantity = 20;
+        int miles = ticketPrice/quantity;
 
         System.out.println(miles + "Начисленные мили");
 
