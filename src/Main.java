@@ -4,14 +4,12 @@ import com.sun.source.util.SourcePositions;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("");
 
         int ticketPrice = 13676;
         int quantity = 20;
-        int miles = ticketPrice/quantity;
+        int miles = ticketPrice / quantity;
 
         System.out.println(miles + "Начисленные мили");
 
-        System.out.println("");
     }
 }
